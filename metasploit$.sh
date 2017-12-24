@@ -1,12 +1,12 @@
 #!/data/data/com.termux/files/usr/bin/bash
 msfvar=4.16.12
+
 apt update apt install -y autoconf bison clang coreutils toilet curl findutils git apr apr-util libffi-dev libgmp-dev libpcap-dev \
-  postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev libxslt-dev ncurses-dev pkg-config \
-  postgresql-contrib wget make ruby-dev libgrpc-dev termux-tools ncurses-utils ncurses unzip zip tar postgresql termux-elf-cleaner
-  toilet -f mono12 -F border "PHONIX" toilet -f term -F border -F metal "SCRIPT MADE BY $ PHONIX"
-  cd TERMUX
-  curl -LO
-  https://github.com/rapid7/metasploit-
+   postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev libxslt-dev ncurses-dev pkg-config \
+   postgresql-contrib wget make ruby-dev libgrpc-dev termux-tools ncurses-utils ncurses unzip zip tar postgresql termux-elf-cleaner
+toilet -f mono12 -F border "PHONIX" toilet -f term -F border -F metal "SCRIPT MADE BY $ PHONIX"
+cd TERMUX
+curl -LO https://github.com/rapid7/metasploit-
 framework/archive/$msfvar.tar.gz
 tar -xf TERMUX/$msfvar.tar.gz
 mv TERMUX/metasploit-framework-$msfvar TERMUX/metasploit-framework
